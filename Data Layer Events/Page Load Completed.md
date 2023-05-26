@@ -15,6 +15,6 @@ dataLayer.push({
 
 
 
+## Attached Notes
 
-
-
+<p>This event should be sent when the page is loaded. This should be send AFTER the page load started event.&nbsp;</p>
