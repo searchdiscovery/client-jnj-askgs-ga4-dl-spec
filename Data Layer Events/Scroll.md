@@ -23,6 +23,9 @@ dataLayer.push({
 |event_data.scroll_milestone|string|How far down the page\/window the user has scrolled|25, 50, 75, 100|||||||
 |event_data.scroll_type|string|Identifies whether a user is scrolling on the page or the request window|Value should be either "Page" "My Requests"|||||||
 
+## Attached Notes
 
-
-
+<p>This should be fired both when the user scrolls through the full page, and also the My Requests window&nbsp;</p>
+<p>&nbsp;</p>
+<p><span class="hljs-string">"scroll_milestone"</span>: The percentage that the user has scrolled down the page (25, 50, 75, 100)</p>
+<p><span class="hljs-string">"scroll_type"</span>: The type of window that the user is scrolling through - either 'Page' or 'My Requests Window'</p>

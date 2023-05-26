@@ -53,6 +53,21 @@ dataLayer.push({
 |user_data.user_region|string|Designates the region the user is in||||||||
 |user_data.user_sector|string|Designates the sector the user is in||||||||
 
+## Attached Notes
 
-
-
+<p>This should be fired on every page BEFORE any other event</p>
+<p>&nbsp;</p>
+<p><span class="hljs-string">"language"</span>: Language that the page is being viewed in</p>
+<p><span class="hljs-string">"page_location"</span>: Full URL of the page</p>
+<p><span class="hljs-string">"page_path"</span>: Portion of the URL after the hostname</p>
+<p><span class="hljs-string">"page_referrer"</span>: Full URL of the page viewed prior to the current page</p>
+<p><span class="hljs-string">"page_title"</span>: Title of the page&nbsp;</p>
+<p><span class="hljs-string">"site_section"</span>: Page category - either '<span style="font-weight: 400;">Home', 'My requests', 'Submit a request', 'Search', 'Article')</span></p>
+<p>&nbsp;</p>
+<p><span class="hljs-string">"user_email"</span>: Hashed user email address (to be used in the future for Qualtrics)</p>
+<p><span class="hljs-string">"user_id"</span>: J&amp;J specific user id (wwid)</p>
+<p><span class="hljs-string">"user_leader"</span>: Boolean - is this person in a management position?&nbsp;</p>
+<p><span class="hljs-string">"user_level"</span>: J&amp;J specific position level</p>
+<p><span class="hljs-string">"user_paygrade"</span>: J&amp;J specific paygrade grouping</p>
+<p><span class="hljs-string">"user_region"</span>: J&amp;J specific region</p>
+<p><span class="hljs-string">"user_sector"</span>: J&amp;J specific department specification</p>

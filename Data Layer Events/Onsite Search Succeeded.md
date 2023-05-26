@@ -29,6 +29,13 @@ dataLayer.push({
 |event_data.results_count|string|Tracks the total number of results that are returned from an onsite search|i.e. 20|||||||
 |event_data.search_term|string|Captures the search text used in on-site searches.|bluth, blue, red lobster|||||||
 
+## Attached Notes
 
-
-
+<p>This event should be sent when at least one search result is succesfully sent back after an onsite search&nbsp;</p>
+<p>&nbsp;</p>
+<p><span class="hljs-string">"corrected_term"</span>: The corrected search term if a user mispells their intended search or chooses an suggested search</p>
+<p><span class="hljs-string">"refine_catalog"</span>: This will be populated with the value of the chosen catalog refinement after a search (HR, Payroll etc)</p>
+<p><span class="hljs-string">"refine_geography"</span>: This will be populated with the value of the chosen catalog refinement after a search&nbsp;</p>
+<p>"results_count": The total number of results that an onsite search yeilds&nbsp;</p>
+<p><span class="hljs-string">"search_term"</span>: The term a user uses to search</p>
+<p>&nbsp;</p>

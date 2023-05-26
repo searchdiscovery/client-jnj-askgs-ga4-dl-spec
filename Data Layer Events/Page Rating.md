@@ -21,6 +21,8 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |event_data.rating|string|Designates the rating of the page|positive, negative|||||||
 
+## Attached Notes
 
-
-
+<p>Fire when a user rates on article page via the thumbs up/thumbs down rating system&nbsp;</p>
+<p>&nbsp;</p>
+<p>"rating": 'positive'/'negative' (thumbs up = positive, thumbs down = negative)</p>

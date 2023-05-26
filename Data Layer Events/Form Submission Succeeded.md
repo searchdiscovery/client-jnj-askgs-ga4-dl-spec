@@ -31,6 +31,13 @@ dataLayer.push({
 |event_data.form_language|string|Language associated with a submitted ticket or live chat||||||||
 |event_data.type|string|Captures the type of form \(i.e. demo, free trial, contact us\).|Address, Contact, Comment, Review, Payment|||||||
 
+## Attached Notes
 
-
-
+<p>This event should be dispatched whenever a user successfully submits their form.</p>
+<p>&nbsp;</p>
+<p><span class="hljs-string">"case_number"</span>: The case number associated with the case the user is inquiring about via live chat (if capturing this is possible)</p>
+<p><span class="hljs-string">"case_status"</span>: The status of the case a user is inquiring about via live chat (if capturing this is possible)</p>
+<p><span class="hljs-string">"form_category"</span>: Category associated with the form submission</p>
+<p><span class="hljs-string">"form_department"</span>: Department associated with the form submission</p>
+<p><span class="hljs-string">"form_language"</span>: Language selected in the form</p>
+<p><span class="hljs-string">"type"</span>: This parameter should be filled with which type of form is being filled out i.e. (Live chat, or submit a ticket)</p>
