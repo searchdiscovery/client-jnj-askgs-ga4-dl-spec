@@ -27,6 +27,11 @@ dataLayer.push({
 |event_data.refine_geography|string|The value associated with the refine category search filter|i.e. United States|||||||
 |event_data.search_term|string|Captures the search text used in on-site searches.|bluth, blue, red lobster|||||||
 
+## Attached Notes
 
-
-
+<p>This event should be dispatched whenever a onsite search fails due to an error or if it yeilds 0 results</p>
+<p>&nbsp;</p>
+<p><span class="hljs-string">"corrected_term"</span>: The corrected search term if a user mispells their intended search or chooses an suggested search</p>
+<p><span class="hljs-string">"refine_catalog"</span>: This will be populated with the value of the chosen catalog refinement after a search (HR, Payroll etc)</p>
+<p><span class="hljs-string">"refine_geography"</span>: This will be populated with the value of the chosen catalog refinement after a search&nbsp;</p>
+<p><span class="hljs-string">"search_term"</span>: The term a user searches&nbsp;</p>
