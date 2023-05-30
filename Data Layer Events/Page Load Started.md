@@ -16,8 +16,7 @@ dataLayer.push({
         "page_path": "<page_path>",
         "page_referrer": "<page_referrer>",
         "page_title": "<page_title>",
-        "site_section": "<site_section>",
-        "type": "<type>"
+        "site_section": "<site_section>"
     },
     "user_data": {
         "start_date": "<start_date>",
@@ -44,7 +43,6 @@ dataLayer.push({
 |page_data.page_referrer|string|DLV \| page\_referrer||||||||
 |page_data.page_title|string|The title of the page currently being viewed, generally available in &lt;title&gt;.||||||||
 |page_data.site_section|string|The section of the site that the current page resides in. site\_section2 through site\_section5can also be used if the site has many sections.||||||||
-|page_data.type|string|The type of page currently viewed.|home, pdp, article|||||||
 |user_data.start_date|string|Identifies the date that the user started at Johnson & Johnson|05302023|||||||
 |user_data.user_country|string|Identifies the country that the user is associated with from J&J perspective||||||||
 |user_data.user_email|string|Stores the email of the logged in user||||||||
