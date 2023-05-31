@@ -65,13 +65,13 @@ dataLayer.push({
 <p><span class="hljs-string">"page_title"</span>: Title of the page&nbsp;</p>
 <p><span class="hljs-string">"site_section"</span>: Page category - either '<span style="font-weight: 400;">Home', 'My requests', 'Submit a request', 'Search', 'Article'</span></p>
 <p>&nbsp;</p>
-<p><span class="hljs-string">"user_email"</span>: Hashed user email address (to be used in the future for Qualtrics)</p>
-<p><span class="hljs-string">"user_id"</span>: J&amp;J specific user id (wwid)</p>
-<p><span class="hljs-string">"user_leader"</span>: Boolean - is this person in a management position?&nbsp;</p>
-<p><span class="hljs-string">"user_paygrade"</span>: J&amp;J specific paygrade grouping</p>
-<p><span class="hljs-string">"user_region"</span>: J&amp;J specific region</p>
-<p><span class="hljs-string">"user_sector"</span>: J&amp;J specific department specification</p>
-<p><span class="hljs-string">"start_date"</span>: J&amp;J start date</p>
-<p><span class="hljs-string">"user_type"</span>: Type of J&amp;J worker - i.e. employee or contractor&nbsp;</p>
-<p><span class="hljs-string">"user_country"</span>: The country that J&amp;J associates the user with</p>
+<p><span class="hljs-string">"user_email"</span>: Hashed user email address (to be used in the future for Qualtrics) <strong>(Maria example: mgarzon@its.jnj.com)</strong></p>
+<p><span class="hljs-string">"user_id"</span>: J&amp;J specific user id (wwid) <strong>(Maria example: 1022356)</strong></p>
+<p><span class="hljs-string">"user_leader"</span>: Boolean - is this person in a management position? <strong>(Maria example: N(whether this checkbox is selected in the contact profile))</strong></p>
+<p><span class="hljs-string">"user_paygrade"</span>: J&amp;J specific paygrade grouping <strong>(Maria example: PG30)</strong></p>
+<p><span class="hljs-string">"user_region"</span>: J&amp;J specific region <strong>(Maria example: NA)</strong></p>
+<p><span class="hljs-string">"user_sector"</span>: J&amp;J specific department specification <strong>(Maria example: Corporate)</strong></p>
+<p><span class="hljs-string">"start_date"</span>: J&amp;J start date <strong>(Maria example: Jan 6, 2014)</strong></p>
+<p><span class="hljs-string">"user_type"</span>: Type of J&amp;J worker - i.e. employee or contractor <strong>(Maria example: Employee)</strong></p>
+<p><span class="hljs-string">"user_country"</span>: The country that J&amp;J associates the user with <strong>(Maria example: US)</strong></p>
 <p>&nbsp;</p>
