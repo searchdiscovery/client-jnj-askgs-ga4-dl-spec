@@ -54,7 +54,7 @@ dataLayer.push({
 
 ## Attached Notes
 
-<p>This should be fired on every page BEFORE any other event</p>
+<p>This should be fired every time history changes BEFORE any other event (i.e. everytime the URL changes)</p>
 <p>&nbsp;</p>
 <p><span class="hljs-string">"country"</span>: The country associated with the current page</p>
 <p><span class="hljs-string">"language"</span>: Language that the page is being viewed in</p>
