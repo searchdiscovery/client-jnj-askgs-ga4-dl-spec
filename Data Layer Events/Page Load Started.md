@@ -24,7 +24,6 @@ dataLayer.push({
         "user_email": "<user_email>",
         "user_id": "<user_id>",
         "user_leader": <user_leader>,
-        "user_paygrade": "<user_paygrade>",
         "user_region": "<user_region>",
         "user_sector": "<user_sector>",
         "user_type": "<user_type>"
